@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rap Battle RPG Game</title>
+
+	<!-- Resets native CSS Styling -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Rap Battle RPG Game</h1>
+			<p id="instructions">Choose your rapper below, then choose the rapper you'd like to battle.<p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<div class="col-md-3">
+				<h4>Lil Uzi Vert</h4>
+				<img data="uzi" src="assets/images/drake.png">
+				<p>150 HP</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Lil Uzi Vert</h4>
+				<img data="drake" src="assets/images/drake.png">
+				<p>150 HP</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Lil Uzi Vert</h4>
+				<img data="jcole" src="assets/images/drake.png">
+				<p>150 HP</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Lil Uzi Vert</h4>
+				<img data="kendrick" src="assets/images/drake.png">
+				<p>150 HP</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3 text-right">
+			<img id="userSlot" src="assets/images/drake.png">
+		</div>
+		<div class="col-md-6 text-center">
+			<div id="messageArea">CONTENT HERE</div>
+			<button type="button" class="btn btn-success">Attack</button>
+			<button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+		</div>
+		<div class="col-md-3 text-left">
+			<img id="opponentSlot" src="assets/images/drake.png">
+		</div>
+	</div>
+
+	<footer>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<br>
+				<p id="footer" class="center-block">by <a href="https://instagram.com/natevillegas">@natevillegas</a></p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
