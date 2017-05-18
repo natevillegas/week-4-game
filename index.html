@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Rap Battle RPG Game</title>
+	<title>Captain Crunch Collector</title>
 
 	<!-- Resets native CSS Styling -->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -13,64 +13,55 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+
+	<style type="text/css">body { cursor: url('data:image/x-icon;base64,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'), auto; }</style>
 </head>
 
 <body>
 
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<h1>Rap Battle RPG Game</h1>
-			<p id="instructions">Choose your rapper below, then choose the rapper you'd like to battle.<p>
+<div class="container game-background">
+	<header>
+		<img src="assets/images/cclogo.jpeg" id="logo" class="center-block">
+		<h1 class="text-center cc-header">Cap'n Crunch Collector</h1>
+	</header>
+
+	<div class="alert alert-info text-center" role="alert">
+		<p>You will be given a random number at the start of the game.</p>
+		<p>There are four Captain Crunch Cereals below. By clicking on a cereal you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<p>The value of each cereal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the values of each cereal.</p>  	
+	</div>
+
+	<h3 class="text-center">Cereals</h3>
+	<div class="text-center cereals alert alert-success" role="alert">
+		<img src="assets/images/red.png" class="click" id="red">
+		<img src="assets/images/blue.png" class="click" id="blue">
+		<img src="assets/images/yellow.png" class="click" id="yellow">
+		<img src="assets/images/green.png" class="click" id="green">
+	</div>
+	
+	<div class="row center-block">
+		<h3 class="text-center">Score</h3>
+		<div class="text-center center-block col-sm-6 alert alert-danger" role="alert">
+			<h4>Random Number</h4>
+			<h5 id="randNum"></h5>
+		</div>
+		<div class="center-block text-center col-sm-6 alert alert-warning" role="alert">
+			<h4>Your Score</h4>
+			<h5 id="userScore"></h5>
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="col-md-12 text-center">
-			<div class="col-md-3">
-				<h4>Lil Uzi Vert</h4>
-				<img data="uzi" src="assets/images/drake.png">
-				<p>150 HP</p>
-			</div>
-			<div class="col-md-3">
-				<h4>Lil Uzi Vert</h4>
-				<img data="drake" src="assets/images/drake.png">
-				<p>150 HP</p>
-			</div>
-			<div class="col-md-3">
-				<h4>Lil Uzi Vert</h4>
-				<img data="jcole" src="assets/images/drake.png">
-				<p>150 HP</p>
-			</div>
-			<div class="col-md-3">
-				<h4>Lil Uzi Vert</h4>
-				<img data="kendrick" src="assets/images/drake.png">
-				<p>150 HP</p>
-			</div>
-		</div>
+	<div class="row center-block text-center winLossKeeper">
+		<h5>Wins<p id="wins">0</p></h5>
+		<h5>Losses<p id="losses">0</p></h5>
 	</div>
+</div>
 
-	<div class="row">
-		<div class="col-md-3 text-right">
-			<img id="userSlot" src="assets/images/drake.png">
-		</div>
-		<div class="col-md-6 text-center">
-			<div id="messageArea">CONTENT HERE</div>
-			<button type="button" class="btn btn-success">Attack</button>
-			<button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
-		</div>
-		<div class="col-md-3 text-left">
-			<img id="opponentSlot" src="assets/images/drake.png">
-		</div>
-	</div>
-
-	<footer>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<br>
-				<p id="footer" class="center-block">by <a href="https://instagram.com/natevillegas">@natevillegas</a></p>
-			</div>
-		</div>
-	</footer>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 

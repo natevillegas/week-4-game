@@ -1,12 +1,32 @@
-img {
-	max-height: 30px;
+/*img {
+	height: 20px;
+}*/
+
+body {
+    background-image: url("../images/milkbg.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
 }
 
-#messageArea {
-	background-color: #d3d3d3;
-	margin: 10px 40px 10px 40px;
-	padding: 10px;
-	text-align: center;
-	border-radius: 10px;
-	/*width: 400px;*/
+.game-background {
+	background-color: white;
+	opacity: .9;
+	margin-top: 50px;
+    border-radius: 15px;
+}
+
+.cc-header {
+	font-family: 'Ultra', serif;
+	color: white;
+	-webkit-text-stroke: 2px black;
+}
+
+#logo {
+	height: 100px;
+	margin-top: 30px;
+}
+
+.winLossKeeper {
+	margin-bottom: 10px;
 }
