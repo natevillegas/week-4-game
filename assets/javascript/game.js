@@ -43,9 +43,11 @@ function updateWinLossKeeper() {
   }
 }
 
+//updates randNum and userScore on screen
 $('#randNum').append(randNum);
 $('#userScore').append(userScore);
 
+//onclick functions
 $(document).ready(function(){
   $('#red').click(function(){
     userScore = userScore + red;
